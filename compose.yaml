@@ -1,0 +1,6 @@
+services:
+  webscraper_app:
+    image: scrape_app
+    build: .
+    ports:
+    - "8000:8000"
